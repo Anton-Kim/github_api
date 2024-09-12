@@ -17,7 +17,7 @@ git clone https://github.com/Anton-Kim/github_api.git
 3. Задать название, срок действия, в разделе Repository access выбрать All repositories, в разделе Permissions в Repository permissions в строке Administration выставить права Read and write;
 4. Нажать зеленую кнопку Generate token для завершения процедуры.
 
-Заполнить файл .env своими данными вручную или через:
+Заполнить файл .env своими данными вручную или через (Ctrl+O - сохранить, Ctrl+X - выйти из редактора):
 ```
 nano .env
 ```
