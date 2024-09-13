@@ -11,6 +11,10 @@
 ```
 git clone https://github.com/Anton-Kim/github_api.git
 ```
+Перейти в папку с репозиторием:
+```
+cd github_api
+```
 Сгенерировать свой персональный API-токен на GitHub:
 1. Клик по своему аватару (правый верхний угол) -> Settings (https://github.com/settings/profile);
 2. Слева раздел Developer Settings -> Personal Access Tokens -> Fine-grained tokens -> Generate new token;
@@ -34,7 +38,7 @@ python -m venv venv
 ```
 source venv/scripts/activate
 ```
-Установить зависимости из файла requirements.txt:
+Обновить PIP и установить зависимости из файла requirements.txt:
 ```
 python -m pip install --upgrade pip
 ```
